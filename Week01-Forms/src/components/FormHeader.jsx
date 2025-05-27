@@ -12,5 +12,4 @@ const FormHeader = () => {
     );
 };
 
-
 export default FormHeader;
