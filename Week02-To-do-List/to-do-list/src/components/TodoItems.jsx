@@ -2,6 +2,7 @@ import React from 'react';
 import delete_icon from '../assets/delete_icon.png';
 import edit_icon from '../assets/edit_icon.png';
 
+
 const TodoItems = ({ tasks, onDelete, onEdit }) => (
     <ul className="w-full">
         {tasks.length === 0 && <li className="text-gray-500">No tasks yet.</li>}
